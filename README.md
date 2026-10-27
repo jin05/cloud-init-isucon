@@ -23,6 +23,8 @@ Apple Silicon(aarch64)にも対応しているため、[Multipass](https://multi
   * [Kayac社内ISUCON2022](https://github.com/matsuu/cloud-init-kayac-isucon-2022)
   * [NRI-ISUCON2022](https://github.com/matsuu/cloud-init-isucon/tree/main/nri-isucon2022)
 
+練習・当日用の計測ツールとチェックリストは [isucon-kit](isucon-kit) にあります。
+
 サーバ内の構築にはAnsibleを使っています。Ansibleのplaybookのみ必要な場合は[matsuu/ansible-isucon](https://github.com/matsuu/ansible-isucon)をどうぞ。
 
 ## Usage
