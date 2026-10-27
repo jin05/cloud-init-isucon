@@ -8,6 +8,7 @@
 | `Makefile` | deploy・ログローテ・alp・スロークエリ集計・pprof。リポジトリ直下にコピーして変数を書き換える |
 | `conf/nginx-log.conf` | alp 用 LTSV ログフォーマット |
 | `conf/mysql-slow.cnf` | スロークエリログ (全件) 有効化 |
+| `CLAUDE.md` | Claude Code に自走させるときのルール。作業ディレクトリにコピーして使う |
 
 ## 練習プラン (10/27〜10/30)
 
