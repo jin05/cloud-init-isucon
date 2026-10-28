@@ -1,0 +1,6 @@
+# /etc/mysql/mysql.conf.d/ (MariaDBなら /etc/mysql/mariadb.conf.d/) に置く
+# 計測用。最終ベンチ前に必ず無効化すること
+[mysqld]
+slow_query_log      = 1
+slow_query_log_file = /var/log/mysql/mysql-slow.log
+long_query_time     = 0
